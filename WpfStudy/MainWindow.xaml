@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfStudy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       xmlns:sys="clr-namespace:System;assembly=mscorlib"
+       
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="69,111,0,0" VerticalAlignment="Top" Width="75"/>
+        <Menu Height="31"  VerticalAlignment="Top" Width="517" HorizontalContentAlignment="Stretch" HorizontalAlignment="Left"/>
+        <ListBox>
+            <ListBoxItem>
+                <sys:DateTime>10/13/2013 4:30 PM</sys:DateTime>
+            </ListBoxItem>
+            <ListBoxItem>
+                <sys:DateTime>10/13/2013 4:50 PM</sys:DateTime>
+            </ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
